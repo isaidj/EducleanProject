@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities_individual.activity_tom">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        app:srcCompat="@drawable/ic_round_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aprende con Tom"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/numeroPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10dp"
+
+        android:text="Pregunta 1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image1View5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+
+            app:srcCompat="@drawable/penguin" />
+
+        <TextView
+            android:id="@+id/pregunta1id"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Por qué debemos cuidar el agua? " />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="?android:attr/listDivider" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/respuesta11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Por qué nos permite respirar." />
+
+        <RadioButton
+            android:id="@+id/respuesta12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Por qué sin ella no podemos vivir." />
+
+        <RadioButton
+            android:id="@+id/respuesta13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Por qué los niños la usan para jugar" />
+
+    </RadioGroup>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/numeroPregunta2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp"
+
+            android:text="Pregunta 2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image2View5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                app:srcCompat="@drawable/penguin" />
+
+            <TextView
+                android:id="@+id/pregunta2id"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Cómo podemos ayudar a no ensuciar el agua?" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/respuesta1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Arrojando basura al agua." />
+
+            <RadioButton
+                android:id="@+id/respuesta2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Votar una bolsa al suelo " />
+
+            <RadioButton
+                android:id="@+id/respuesta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No arrojar basura al agua" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/responder"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="right"
+        android:layout_height="wrap_content"
+        android:text="Responder" />
+
+
+</LinearLayout>

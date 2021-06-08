@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "773338669150",
+    "project_id": "educlean-ce6bd",
+    "storage_bucket": "educlean-ce6bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773338669150:android:f7c74feb658915231a94cf",
+        "android_client_info": {
+          "package_name": "com.example.educlean"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773338669150-ebstkso8jaabhfos3ie7h4o9m1et1d25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbv2CXkwzZBdQdYWLOQc6yPmcRxqPlnxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773338669150-ebstkso8jaabhfos3ie7h4o9m1et1d25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

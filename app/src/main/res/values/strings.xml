@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Educlean</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_activities">Actividades</string>
+    <string name="menu_nav_games">Games</string>
+    <string name="menu_videos">Videos</string>
+    <string name="menu_readings">Lecturas</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_home">Home</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="hola">hola</string>
+    <string name="Enseñale_a_tom">s simply dummy text of the printing and typesetting ind</string>
+    <string name="el_topo_contamidador">El topo contamidador</string>
+    <string name="a_por_qu_nos_permite_respirar">A: Por qué nos permite respirar.</string>
+    <array name="pregunta1">
+        <item name="pregunta">Por qué debemos cuidar el agua? </item>
+        <item name="r1">Por qué nos permite respirar</item>
+        <item name="r2">Por qué sin ella no podemos vivir</item>
+        <item name="r3">Por qué los niños la usan para jugar</item>
+        <item name="respuesta">Por qué sin ella no podemos vivir</item>
+    </array>
+
+</resources>
